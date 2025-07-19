@@ -1,0 +1,95 @@
+/* General Wrapper */
+.home-wrapper {
+    background-color: #f7f9fc;
+    padding-bottom: 50px;
+  }
+  
+  /* Welcome Section */
+  .welcome-section {
+    padding: 80px 20px 40px 20px;
+    background: linear-gradient(135deg, #3f51b5, #1a237e);
+    color: white;
+    border-bottom: 5px solid #1a237e;
+  }
+  
+  .welcome-section h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-section .lead {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Card Section */
+  .section-cards {
+    margin-top: 50px;
+  }
+  
+  .info-card {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .info-card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .info-card .card-body {
+    padding: 20px;
+  }
+  
+  .info-card .card-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .info-card .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Button Style */
+  .info-card .btn {
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  
+  /* Footer */
+  .footer-section {
+    padding: 40px 20px 20px 20px;
+    background-color: #e0e0e0;
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #333;
+    border-top: 4px solid #1a237e;
+  }
+  
+  /* Responsive Fixes */
+  @media (max-width: 768px) {
+    .info-card img {
+      height: 180px;
+    }
+  
+    .welcome-section h1 {
+      font-size: 2rem;
+    }
+  
+    .welcome-section .lead {
+      font-size: 1rem;
+    }
+  }
+  
