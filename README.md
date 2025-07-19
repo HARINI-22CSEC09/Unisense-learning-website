@@ -1,4 +1,4 @@
-🌐 Unisense Learning Website
+Unisense Learning Website
 
 Unisense is an inclusive learning platform that provides assistance for  
 👁️‍🗨️ Visually Impaired, 
@@ -7,7 +7,7 @@ Unisense is an inclusive learning platform that provides assistance for
 
 
 
-✨ Highlights
+Highlights
 
 - 🎤 Speech-to-Text for the hearing/speech impaired  
 - 🔊 Text-to-Speech for the visually impaired  
@@ -16,7 +16,7 @@ Unisense is an inclusive learning platform that provides assistance for
 - 📊 Simple and clean user dashboard
 
 
-💻 Built With
+Built With
 
 - Frontend:React.js, Tailwind CSS  
 - Backend :Python flask
@@ -25,6 +25,9 @@ Getting Started
 
 
 git clone https://github.com/HARINI-22CSEC09/Unisense-learning-website.git
+
 cd Unisense-learning-website
+
 npm install
+
 npm start
